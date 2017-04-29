@@ -2,9 +2,9 @@
 Category: Behavioural Pattern<br>
 </b>
 
-<b>Usecase:</b> Allows multiple watchers to get status update on Object being tracked.<br>
+<b>Usecase:</b> Allows multiple trackers to get status update on Object being tracked.<br>
 
-<b>Example:</b> Stock Market Price Change can be tracked by Watchers such as Stock Traders.<br>
+<b>Example:</b> Stock Market Price Change can be tracked by Stock Traders.<br>
 
 Java Provides Observable and Observer Class to facilitate implementation.<br>
 
