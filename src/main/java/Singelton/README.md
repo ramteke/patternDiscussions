@@ -1,4 +1,5 @@
-
+<h2>Singleton</h2>
+<b>Type: </b> Creational Pattern
 
 <b>Singleton using double locking:</b>
 <pre>
@@ -40,6 +41,19 @@ This mechanism is called double checked locking and it provides significant perf
 Enum is thread safe and implementation of Singleton through Enum ensures that,
  your singleton will have only one instance even in a multithreaded environment.
 </pre>
+
+<pre>
+enum MySingelton {
+    SINGLE_INSTANCE; //Specificy only and only one type.
+                     //Object creation is called for every added entry. So restrict it to one
+
+    public void doSomething() {
+        System.out.println("3. We are doing some Operation");
+    }
+}
+
+</pre>
+
 
 <br>
 
