@@ -13,7 +13,7 @@ platform dependent Windows, Panes, Buttons and so on.
 1. Create an AbstractFactory instance  (based on platform, returns relevent Factory Object)
 2. Create a Builder
 3. Call Builder to create a new Window by passing abstractFactory instance.
-   Abstract factory should take care of what to build
+   Abstract factory should take care of what concrete factory to build. Each concrete factory houses further component factories.
 
            AbstractWidgetFactory widgetFactory = null;
 
