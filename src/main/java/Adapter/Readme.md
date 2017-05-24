@@ -5,5 +5,5 @@
 <ul>
 <li>Allows to: interact with unsupported objects.
 <li>Example: Provide support for MP4 on a mediaPlayer which only play MP3.
-<li>For example, Create a MediaAdapter which houses MP3 and new interface for Mp4.
+<li>For example, Create a MediaAdapter and it to MediaPlayer to support newer formats like MP4.
 </ul>
