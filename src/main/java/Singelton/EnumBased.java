@@ -4,7 +4,7 @@ package Singelton;
  * Created by skynet on 29/04/17.
  */
 enum MySingelton {
-    SINGLE_INSTANCE; //Specificy only and only one type
+    SOME_INSTANCE; //Specificy only and only one type
 
 
     MySingelton() {
@@ -16,16 +16,21 @@ enum MySingelton {
     }
 
 
+    public void doSomethingElse() {
+        System.out.println("4. We are doing some Other Operation");
+    }
+
 }
 
 public class EnumBased {
 
     public static void main(String args[]) {
         System.out.println("1. Main Started");
-        MySingelton.SINGLE_INSTANCE.doSomething();
+        MySingelton.SOME_INSTANCE.doSomething();
 
-        MySingelton.SINGLE_INSTANCE.doSomething();
+        MySingelton.SOME_INSTANCE.doSomething();
 
+        MySingelton.SOME_INSTANCE.doSomethingElse();
 
     }
 

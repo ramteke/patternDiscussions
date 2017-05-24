@@ -19,6 +19,8 @@
 
 From: https://dzone.com/articles/singleton-design-pattern-%E2%80%93<br>
 <pre>
+NOTE:  singleton instance is a static class variable in the stored in the PermGen space of the heap.
+
 In such situation the may be three or more threads are waiting on the synchronized block to get access.
 
 Since we have used synchronized only one thread will be given access.
@@ -39,10 +41,17 @@ This mechanism is called double checked locking and it provides significant perf
 <b>Singleton using enum</b>
 <pre>
 Enum is thread safe and implementation of Singleton through Enum ensures that,
- your singleton will have only one instance even in a multithreaded environment.
-</pre>
+your singleton will have only one instance even in a multithreaded environment.
 
-<pre>
+
+How to Do:
+------------
+Create a enum with only one constant and multiple functions.
+
+Note: Inclusion of mutiple constants will create a new instance of enum
+
+Example:
+
 enum MySingelton {
     SINGLE_INSTANCE; //Specificy only and only one type.
                      //Object creation is called for every added entry. So restrict it to one
@@ -53,12 +62,5 @@ enum MySingelton {
 }
 
 </pre>
-
-
-<br>
-
-Notes:<br>
-
-Singleton object stores in Heap but, static object stores in stack.<br>
 
 
