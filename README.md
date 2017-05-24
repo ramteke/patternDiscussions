@@ -9,10 +9,10 @@
 <h2>Structural Patterns:</h2><br>
    Composite         : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Composite<br>
    Facade            : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Facade<br>
-   Decorator         : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Decorator
-   Flyweight         : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Flyweight
-   Proxy             : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Proxy
-   Adapter           : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Adapter
+   Decorator         : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Decorator<br>
+   Flyweight         : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Flyweight<br>
+   Proxy             : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Proxy<br>
+   Adapter           : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Adapter<br>
 <hr>
 <h2>Behavioural Patterns:</h2><br>
    Observer          : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Observer<br>
