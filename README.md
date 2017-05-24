@@ -16,3 +16,7 @@
 <hr>
 <h2>Behavioural Patterns:</h2><br>
    Observer          : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Observer<br>
+   Command           : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Command<br>
+   Chain of Resp.    : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/ChainOfResponsibility<br>
+   Strategy          : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Stretegy<br>
+   Visitor           : https://github.com/ramteke/patternDiscussions/tree/master/src/main/java/Visitor<br>
